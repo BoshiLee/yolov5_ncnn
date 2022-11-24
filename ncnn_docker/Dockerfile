@@ -46,8 +46,4 @@ WORKDIR /docker_mount
 RUN git clone https://github.com/shaoshengsong/yolov5_62_export_ncnn
 WORKDIR /docker_mount/yolov5_62_export_ncnn/
 RUN pip install -r requirements.txt
-
-EXPOSE 3000
-
-# Make the server be the main container command
-CMD python api/run.py
+WORKDIR /docker_mount
