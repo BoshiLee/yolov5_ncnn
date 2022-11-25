@@ -2,6 +2,7 @@
 
 - 目前只能先用到 18.04 的版本 之後的版本 vulkan-utils 就沒有相關資源
 - 如果想要省略以下步驟，或熟悉 Docker 的也可以直接用我寫好的 [Dockerfile](/ncnn_docker/Dockerfile)
+- 如果想知道如何安裝 Docker on Windows with WSL2 請參閱 [Docker Desktop WSL 2 backend on Windows](https://docs.docker.com/desktop/windows/wsl/)
 
 
 
